@@ -5,6 +5,8 @@
 #include <sys/types.h>
 
 int main() {
+
+
     DIR* here = opendir(".");
     struct dirent* current;
     printf("Directories: \n");
